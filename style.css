@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    border: 3px solid black;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    a{
+        color: white;
+    }
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-self: center;
+}
+.myweb{
+    font-size: 1.4em;
+    color: white;
+    font-style: italic;
+    align-self: center;
+    display: flex;
+}
+main{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+article{
+    border: 3px solid black;
+    line-height: 1.4em;
+    width: 300px;
+    height: 250px;
+}
+.archead{
+    color: white;
+    background-color:  rgb(51, 51, 51);
+    padding: 15px;
+    font-size: 1.4em;
+}
+.arcmain{
+    padding: 20px 15px;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left2{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.right{
+    background: rgb(51, 51, 51);
+    border: 3px solid black;
+    padding: 15px;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        nav{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 0.9em;
+        }
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    .left2{
+        justify-content: initial;
+    }
+}
