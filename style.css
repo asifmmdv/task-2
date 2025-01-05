@@ -45,8 +45,9 @@ section{
 article{
     border: 3px solid black;
     line-height: 1.4em;
-    width: 300px;
+    width: 310px;
     height: 250px;
+    margin: auto;
 }
 .archead{
     color: white;
@@ -66,7 +67,6 @@ article{
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
-    justify-content: center;
 }
 .right{
     background: rgb(51, 51, 51);
@@ -90,7 +90,7 @@ article{
         display: flex;
         flex-direction: row;
     }
-    .left2{
-        justify-content: initial;
+    article{
+        margin: initial;
     }
 }
